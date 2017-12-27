@@ -62,14 +62,31 @@ class NumbertailGameController : UIViewController {
                 foregroundColor:UIColor(red : 0xF9/255, green : 0xF9/255, blue : 0xE3/255, alpha : 0.5)
         )
         //现在面板中所有的视图对象，目前只有游戏区块，后续加入计分板
-        let views = [gamebord]
+//        let views = [gamebord]
         //设置游戏区块在整个面板中的的绝对位置，即左上角第一个点
-        var f = gamebord.frame
-        f.origin.x = xposition2Center(view: gamebord)
-        f.origin.y = yposition2Center(order: 0, views: views)
-        gamebord.frame = f
-        //将游戏对象加入当前面板中
-        view.addSubview(gamebord)
+//        var f = gamebord.frame
+//        f.origin.x = xposition2Center(view: gamebord)
+//        f.origin.y = yposition2Center(order: 0, views: views)
+//        gamebord.frame = f
+//        //将游戏对象加入当前面板中
+//        view.addSubview(gamebord)
 
+        let scoreView = ScoreView(
+                backgroundColor: UIColor(red : 0xA2/255, green : 0x94/255, blue : 0x5E/255, alpha : 1),
+                textColor: UIColor(red : 0xF3/255, green : 0xF1/255, blue : 0x1A/255, alpha : 0.5),
+                font: UIFont(name: "HelveticaNeue-Bold", size: 16.0) ?? UIFont.systemFont(ofSize: 16.0)
+        )
+        let views = [scoreView, gamebord]
+        var sf = scoreView.frame
+        sf.origin.x = xposition2Center(view: scoreView)
+        sf.origin.y = yposition2Center(order: 0, views: views)
+        var gf = gamebord.frame
+        gf.origin.x = xposition2Center(view: gamebord)
+        gf.origin.y = yposition2Center(order: 0, views: views)
+        scoreView.frame = sf
+        gamebord.frame = gf
+        view.addSubview(scoreView)
+        view.addSubview(gamebord)
+        scoreView.scoreChanged(newScore: 11)
     }
 }

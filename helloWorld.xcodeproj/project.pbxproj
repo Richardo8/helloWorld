@@ -14,6 +14,7 @@
 		AF472875A62BE7CD8DA8C400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4728E66558EE91F81C4DBE /* ViewController.swift */; };
 		AF472B2EBD66086146FE541B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472AF7F877D86C4AD42B63 /* AppDelegate.swift */; };
 		AF472B61C56066D3C9991A04 /* NumbertailGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4726EC438A84B984BF9FD2 /* NumbertailGameController.swift */; };
+		AF472DF168B1AED9F9F9A190 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472496E7531A747F9988A4 /* ScoreView.swift */; };
 		AF472E390F02FCF56281071E /* GamebordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472F8E496EF08EE38AC51C /* GamebordView.swift */; };
 		AF472FAEB52AAE59DB293BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47289738892583B66D1910 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		AF47229D152DFEE4676B56E0 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47235A0731DD0274BAF64E /* helloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldUITests.swift; sourceTree = "<group>"; };
 		AF4723DCF5257CAC84E5ECD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF472496E7531A747F9988A4 /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		AF4724AF0A0C8B2E38D44875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF4726EC438A84B984BF9FD2 /* NumbertailGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbertailGameController.swift; sourceTree = "<group>"; };
 		AF472831D7B15996F04CFB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				AF4728E66558EE91F81C4DBE /* ViewController.swift */,
 				AF4726EC438A84B984BF9FD2 /* NumbertailGameController.swift */,
 				AF472F8E496EF08EE38AC51C /* GamebordView.swift */,
+				AF472496E7531A747F9988A4 /* ScoreView.swift */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				AF472875A62BE7CD8DA8C400 /* ViewController.swift in Sources */,
 				AF472B61C56066D3C9991A04 /* NumbertailGameController.swift in Sources */,
 				AF472E390F02FCF56281071E /* GamebordView.swift in Sources */,
+				AF472DF168B1AED9F9F9A190 /* ScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
