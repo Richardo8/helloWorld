@@ -82,7 +82,7 @@ class NumbertailGameController : UIViewController {
         sf.origin.y = yposition2Center(order: 0, views: views)
         var gf = gamebord.frame
         gf.origin.x = xposition2Center(view: gamebord)
-        gf.origin.y = yposition2Center(order: 0, views: views)
+        gf.origin.y = yposition2Center(order: 1, views: views)
         scoreView.frame = sf
         gamebord.frame = gf
         view.addSubview(scoreView)
