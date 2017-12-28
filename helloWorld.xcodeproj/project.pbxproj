@@ -12,8 +12,10 @@
 		AF47267DC36B6CA1931C11E3 /* helloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4729A52466BB6C47F7BE4D /* helloWorldTests.swift */; };
 		AF47285A075FD3B0F18FAC22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47298B459682D781B8F95A /* LaunchScreen.storyboard */; };
 		AF472875A62BE7CD8DA8C400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4728E66558EE91F81C4DBE /* ViewController.swift */; };
+		AF4728C0F4E4E7F8B44302E6 /* ApperanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4729BBCF09FE93D42A758E /* ApperanceProvider.swift */; };
 		AF472B2EBD66086146FE541B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472AF7F877D86C4AD42B63 /* AppDelegate.swift */; };
 		AF472B61C56066D3C9991A04 /* NumbertailGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4726EC438A84B984BF9FD2 /* NumbertailGameController.swift */; };
+		AF472CD16053ADAE4BB1A9AA /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4721C9D9C0419EB092728C /* TileView.swift */; };
 		AF472DF168B1AED9F9F9A190 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472496E7531A747F9988A4 /* ScoreView.swift */; };
 		AF472E390F02FCF56281071E /* GamebordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF472F8E496EF08EE38AC51C /* GamebordView.swift */; };
 		AF472FAEB52AAE59DB293BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF47289738892583B66D1910 /* Main.storyboard */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF4721C9D9C0419EB092728C /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		AF472291DBF90045385F704F /* helloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47229D152DFEE4676B56E0 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF47235A0731DD0274BAF64E /* helloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldUITests.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		AF472831D7B15996F04CFB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4728E66558EE91F81C4DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF4729A52466BB6C47F7BE4D /* helloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWorldTests.swift; sourceTree = "<group>"; };
+		AF4729BBCF09FE93D42A758E /* ApperanceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApperanceProvider.swift; sourceTree = "<group>"; };
 		AF472AF7F877D86C4AD42B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF472C90E79F39C3C7D06B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		AF472CB63606A809E249396C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 				AF4726EC438A84B984BF9FD2 /* NumbertailGameController.swift */,
 				AF472F8E496EF08EE38AC51C /* GamebordView.swift */,
 				AF472496E7531A747F9988A4 /* ScoreView.swift */,
+				AF4721C9D9C0419EB092728C /* TileView.swift */,
+				AF4729BBCF09FE93D42A758E /* ApperanceProvider.swift */,
 			);
 			path = helloWorld;
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 				AF472B61C56066D3C9991A04 /* NumbertailGameController.swift in Sources */,
 				AF472E390F02FCF56281071E /* GamebordView.swift in Sources */,
 				AF472DF168B1AED9F9F9A190 /* ScoreView.swift in Sources */,
+				AF472CD16053ADAE4BB1A9AA /* TileView.swift in Sources */,
+				AF4728C0F4E4E7F8B44302E6 /* ApperanceProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

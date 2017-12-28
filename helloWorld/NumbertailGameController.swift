@@ -8,6 +8,7 @@ import UIKit
 class NumbertailGameController : UIViewController {
     var demension : Int  //2048游戏中每行每列含有多少个块
     var threshold : Int  //最高分数，判断输赢时使用，今天暂时不会用到，预留
+    var bord: GamebordView?
     let boardWidth: CGFloat = 260.0  //游戏区域的长度和高度
     let thinPadding: CGFloat = 3.0  //游戏区里面小块间的间距
     let viewPadding: CGFloat = 10.0  //计分板和游戏区块的间距
@@ -88,5 +89,13 @@ class NumbertailGameController : UIViewController {
         view.addSubview(scoreView)
         view.addSubview(gamebord)
         scoreView.scoreChanged(newScore: 11)
+        gamebord.insertTile(pos: (3, 1), value: 2)
+        gamebord.insertTile(pos: (1, 3), value: 2)
+    }
+
+    func insertTile(pos: (Int, Int), value: Int){
+        assert(bord != nil)
+        let b = bord!
+        b.insertTile(pos: pos, value: value)
     }
 }
